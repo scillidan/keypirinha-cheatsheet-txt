@@ -23,6 +23,8 @@ class Cheatsheet(kp.Plugin):
     def on_start(self):
         self._read_config()
         self._build_cache()
+        icon_handle = self.load_icon("res://Cheatsheet/assets/icon.ico")
+        self.set_default_icon(icon_handle)
 
     def on_catalog(self):
         if self._keyword_mode:
