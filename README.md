@@ -1,14 +1,20 @@
+<div align="center">
+  <img src="assets/icon.png" alt="icon" width="32" />
+</div>
+
 # keypirinha-cheatsheet
 
-Search cheatsheets liked keyboard shortcuts from `.conf` files. Supports:
+Search cheatsheets liked keyboard shortcuts from `.conf` files.
+
+Authors: GLM-5🧙‍♂️, scillidan🤡.
+
+## Features
 
 - Load contents from multiple directories and subdirectories
 - Using space between words helps filtering stuffs
 - Ignore custom files and dirs
 - Two search modes: keyword mode and direct mode
-- Other features
-
-Authors: GLM-5🧙‍♂️, scillidan🤡.
+- Other more
 
 ## Cheatsheet format
 
