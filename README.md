@@ -8,6 +8,8 @@ Search cheatsheets liked keyboard shortcuts from `.conf` files.
 
 Authors: GLM-5🧙‍♂️, scillidan🤡.
 
+The icon is from [Input Prompts](https://www.kenney.nl/assets/input-prompts) by [Kenney](https://www.kenney.nl).
+
 ## Features
 
 - Load contents from multiple directories and subdirectories
