@@ -1,7 +1,7 @@
-PACKAGE_NAME = Cheatsheet
-VERSION = 0.0.3
+PACKAGE_NAME = CheatsheetTxt
+VERSION = 0.1.0
 DIST_DIR = dist
-FILES = cheatsheet.py cheatsheet.ini README.md LICENSE assets/icon.ico
+FILES = cheatsheettxt.py cheatsheettxt.ini README.md LICENSE assets/icon.ico
 
 .PHONY: all clean dist
 

@@ -30,7 +30,7 @@ jobs:
       run: make
 
     - name: Generate SHA256 checksums
-      run: sha256sum dist/Cheatsheet.keypirinha-package > dist/Cheatsheet.keypirinha-package.sha256
+      run: sha256sum dist/CheatsheetTxt.keypirinha-package > dist/CheatsheetTxt.keypirinha-package.sha256
 
     - name: Release
       uses: softprops/action-gh-release@v3
@@ -38,4 +38,5 @@ jobs:
         tag_name: ${{ github.event_name == 'workflow_dispatch' && inputs.version || github.ref_name }}
         name: ${{ github.event_name == 'workflow_dispatch' && inputs.version || github.ref_name }}
         files: |
-          dist/Cheatsheet.keypirinha-package
+          dist/CheatsheetTxt.keypirinha-package
+          dist/CheatsheetTxt.keypirinha-package.sha256

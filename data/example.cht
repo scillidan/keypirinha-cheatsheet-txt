@@ -1,0 +1,6 @@
+# Clink keybindings
+# https://chrisant996.github.io/clink/clink.html#gettingstarted_keybindings
+clink: Help                 | A-h
+clink: Clear the input line | Esc
+clink: Delete to end of line| C-End
+clink: Undo                 | C-z
