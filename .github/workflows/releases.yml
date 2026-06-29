@@ -1,4 +1,4 @@
-name: Create Releases
+name: Releases
 
 on:
   push:
@@ -39,4 +39,3 @@ jobs:
         name: ${{ github.event_name == 'workflow_dispatch' && inputs.version || github.ref_name }}
         files: |
           dist/CheatsheetTxt.keypirinha-package
-          dist/CheatsheetTxt.keypirinha-package.sha256
