@@ -28,7 +28,7 @@ jobs:
         run: make
 
       - name: Generate SHA256 checksums
-        run: sha256sum dist/Cheatsheet.keypirinha-package > dist/Cheatsheet.keypirinha-package.sha256
+        run: sha256sum dist/CheatsheetTxt.keypirinha-package > dist/CheatsheetTxt.keypirinha-package.sha256
 
       - name: Release
         env:
@@ -36,7 +36,7 @@ jobs:
           TAG_NAME: ${{ github.event_name == 'workflow_dispatch' && inputs.version || github.ref_name }}
         run: |
           gh release create "$TAG_NAME" \
-            dist/Cheatsheet.keypirinha-package \
-            dist/Cheatsheet.keypirinha-package.sha256 \
+            dist/CheatsheetTxt.keypirinha-package \
+            dist/CheatsheetTxt.keypirinha-package.sha256 \
             --title "$TAG_NAME" \
             --generate-notes
