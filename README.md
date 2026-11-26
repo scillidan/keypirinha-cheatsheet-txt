@@ -4,6 +4,9 @@
 
 # keypirinha-cheatsheet-txt
 
+> This repository is archived and kept for historical reference only.
+> I'm currently using [fzf-txt.sh](https://github.com/scillidan/scripts/blob/main/fzf-txt.sh) instead.
+
 Search keyboard shortcuts from plain text files. Compatible with [rofi-shortcuts.conf](https://github.com/Zeioth/rofi-shortcuts/blob/master/rofi-shortcuts.conf) format (see `data/example.cht`).
 
 Authors: GLM-5.1🧙‍♂️, scillidan🤡
